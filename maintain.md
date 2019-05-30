@@ -1,7 +1,7 @@
 Maintaining an AEM Connector
 ============================
 
-This article contains information about maintaining an [AEM Connector](www.adobe.io/apis/experiencecloud/aem/aemconnectors.html) and should be read in conjunction with articles about [implementing](implement.md) and [submitting](submit.md) connectors.
+This article contains information about maintaining an [AEM Connector](https://www.adobe.io/apis/experiencecloud/aem/aemconnectors.html) and should be read in conjunction with articles about [implementing](implement.md) and [submitting](submit.md) connectors.
 
 Even after the initial submission, there may be reasons for a partner to update its AEM Connector, either due to a new release of AEM or independent of that – for example, to add features or to fix bugs. This article outlines the process for both scenarios and also describes a customer's typical process for validating connectors when upgrading AEM. 
 
