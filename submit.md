@@ -1,7 +1,7 @@
 Submitting an AEM Connector
 ===========================
 
-Provided below is useful information for submitting [AEM Connectors](www.adobe.io/apis/experiencecloud/aem/aemconnectors.html) and should be read in conjunction with articles about [implementing](implement.md) and  [maintaining](maintain.md) connectors.
+Provided below is useful information for submitting [AEM Connectors](https://www.adobe.io/apis/experiencecloud/aem/aemconnectors.html) and should be read in conjunction with articles about [implementing](implement.md) and  [maintaining](maintain.md) connectors.
 
 AEM Connectors are listed on the [Adobe Exchange](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace.html), where they can be discovered by customers. We recommend distributing the package binary through AEM's Package Share, which implies some vetting of the package by an Adobe Exchange partner team representative.
 
