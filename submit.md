@@ -3,14 +3,14 @@ Submitting an AEM Connector
 
 Provided below is useful information for submitting [AEM Connectors](https://www.adobe.io/apis/experiencecloud/aem/aemconnectors.html) and should be read in conjunction with articles about [implementing](implement.md) and  [maintaining](maintain.md) connectors.
 
-AEM Connectors are listed on the [Adobe Exchange](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace.html), where they can be discovered by customers. We recommend distributing the package binary through AEM's Package Share, which implies some vetting of the package by an Adobe Exchange partner team representative.
+AEM Connectors are listed on the [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html), where they can be discovered by customers. We recommend distributing the package binary through AEM's Package Share, which implies some vetting of the package by an Adobe Exchange partner team representative.
 
 The steps below outline the process for submitting a connector, after it has been [implemented](implement.md):
 
-1.  Create a package: AEM connectors typically include an AEM package that is built and often installed using AEM Package Manager. Learn about using AEM Package Manager to [create a package](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html#Creating a New Package), including filling out the fields under [package settings](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html#Package Settings).
+1.  Create a package: AEM connectors typically include an AEM package that is built and often installed using AEM Package Manager. Learn about using AEM Package Manager to [create a package](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#creating-a-new-package), including filling out the fields under [package settings](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#package-settings).
 
 
-2.  Optionally, upload the package to AEM Package Share: As described above, hosting the package through AEM's Package Share site is recommended. Learn about [accessing Package Share](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html#Package Share) and [uploading a package](https://docs.adobe.com/docs/en/aem/6-3/administer/content/package-manager.html#Uploading a package). 
+2.  Optionally, upload the package to [Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
 
 3.  If uploaded to Package Share, an Adobe Admin will review the connector to ensure it functions correctly with activities that include:
@@ -18,7 +18,7 @@ The steps below outline the process for submitting a connector, after it has bee
     *   executing integration tests to validate proper execution, such as looking for regressions in core AEM code, broken UI, and reductions in overall performance.
     *   validating that it does not introduce unwarranted warnings or errors into the logs.
     *   ensuring that it does not interfere with upgrading the version of an AEM instance.
-    *   validating that certain design patterns are followed; for example, translation connectors should use the [AEM Translation Framework.](https://docs.adobe.com/docs/en/aem/6-3/administer/sites/translation/tc-tic.html)
+    *   validating that certain design patterns are followed; for example, translation connectors should use the [AEM Translation Framework.](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-tic.html)
 5.  Register for the [Adobe Exchange Program](https://partners.adobe.com/exchangeprogram/experiencecloud), which serves as the hub for vendors to manage their relationship with Adobe and their connectors.
 
 
