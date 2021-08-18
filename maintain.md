@@ -8,7 +8,7 @@ Even after the initial submission, there may be reasons for a partner to update 
 Connector Updates due to AEM Releases
 -------------------------------------
 
-AEM releases software via several [release vehicles](https://docs.adobe.com/docs/en/aem/6-3/deploy/maintenance-release-vehicle-definitions.html) and partners should pay particular attention to full releases and service packs to ensure that their connectors continue to function. If code changes are necessary, connectors should be updated so customers enjoy a seamless upgrade process. Since customers are in full control of when they upgrade, partners may choose to support multiple versions of their connector, based on their knowledge of which versions of AEM are most popular with their customers. 
+AEM releases software via several [release vehicles](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html) and partners should pay particular attention to full releases and service packs to ensure that their connectors continue to function. If code changes are necessary, connectors should be updated so customers enjoy a seamless upgrade process. Since customers are in full control of when they upgrade, partners may choose to support multiple versions of their connector, based on their knowledge of which versions of AEM are most popular with their customers. 
 
 ### Full releases
 
